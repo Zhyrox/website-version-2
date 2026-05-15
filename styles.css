@@ -521,7 +521,7 @@ section { padding: 100px 48px; }
 .skills-icons.two-rows {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 30px;
 }
 
 .skills-row {
