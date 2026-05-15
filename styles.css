@@ -415,7 +415,7 @@ nav.scrolled {
   position: absolute;
   inset: -12px;
   border-radius: 50%;
-  border: 1px dashed rgba(132, 80, 237, 0.18);
+  border: 13px dashed rgba(132, 80, 237, 0.18);
   animation: spin 18s linear infinite;
 }
 
