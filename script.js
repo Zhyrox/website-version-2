@@ -38,18 +38,6 @@ const observer = new IntersectionObserver((entries) => {
 
 reveals.forEach(el => observer.observe(el));
 
-/* ─── CONTACT FORM HANDLER ─────────────────────────── */
-function handleSubmit(e) {
-  e.preventDefault();
-  const btn = e.target.querySelector('.btn-send span');
-  btn.textContent = 'Sent ✓';
-  setTimeout(() => {
-    btn.textContent = 'Send Message';
-    e.target.reset();
-  }, 3000);
-}
-
-
 /* ─── THEME TOGGLE ─────────────────────────────────── */
 const themeToggle = document.getElementById('theme-toggle');
 
