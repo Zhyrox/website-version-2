@@ -645,6 +645,13 @@ section { padding: 100px 48px; }
   line-height: 1.6;
 }
 
+.work-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* ─── CONTACTS ──────────────────────────────────────── */
 #contacts {
   background: var(--section-alt);
