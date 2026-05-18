@@ -585,6 +585,22 @@ section { padding: 100px 48px; }
   gap: 24px;
 }
 
+.work-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.work-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
 .work-card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
