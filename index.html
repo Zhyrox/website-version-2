@@ -185,7 +185,6 @@
       </div>
     </div>
   </section>
- 
  <!-- ── CONTACTS ── -->
 <section id="contacts">
   <div class="section-inner">
@@ -221,6 +220,19 @@
 
   </div>
 </section>
+
+      <form
+        action="https://formspree.io/f/xvzlepen"
+        method="POST"
+        class="contact-form reveal"
+        onsubmit="handleSubmit(event)">
+        <input type="text"  name="name"    placeholder="Your Name"      required />
+        <input type="email" name="email"   placeholder="your@email.com" required />
+        <textarea           name="message" placeholder="Your message…"  required></textarea>
+        <button type="submit" class="btn-send"><span>Send Message</span></button>
+      </form>
+    </div>
+  </section>
  
   <footer>
     <p>&copy; 2026 <span>Zhiro Francisco</span>. Crafted with care.</p>
